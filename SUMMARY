@@ -1,1 +1,1 @@
-荣耀 MagicOS 不允许把第三方桌面设为默认桌面，手势「上滑回桌面」永远回到荣耀桌面。MagicHome 在荣耀桌面进程里钩住 Quickstep 的手势终点，只在终点确为 HOME 时把你带回自己指定的桌面（默认 Nova Launcher）；进最近任务、快速切应用、点任务卡片都不会误跳，最近任务里点空白退出时也会落到你的桌面。需要 LSPosed（libxposed API 102+），已在 MagicOS 11 / Android 17 实测。
+荣耀 MagicOS 不允许把第三方桌面设为默认桌面，手势「上滑回桌面」永远回到荣耀桌面。MagicHome 在荣耀桌面进程里钩住 Quickstep 的手势终点，只在终点确为 HOME 时把你带回自己指定的桌面（默认 Nova Launcher）；进最近任务、快速切应用、点任务卡片都不会误跳；最近任务里点空白退出、或从任意 App 按返回键退出，也会落到你的桌面。需要 LSPosed（libxposed API 102+），已在 MagicOS 11 / Android 17 实测。
